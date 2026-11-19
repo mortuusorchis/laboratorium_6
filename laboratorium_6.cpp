@@ -69,7 +69,7 @@ int main() {
      } */
 
 // zadanie 7
-	string tekst;
+/*	string tekst;
 	int dlugosc;
 	int indeks;
 	
@@ -87,4 +87,25 @@ int main() {
 		<< tekst.substr(indeks, dlugosc);
 
 	return 0;
+} 
+*/
+
+// zadanie 8
+string data;
+
+cout << "Podaj date w formacie RRRR-MM-DD: ";
+cin >> data;
+
+int pozycja1 = data.find('-');
+int pozycja2 = data.find('-', pozycja1 + 1);
+
+string rok = data.substr(0, pozycja1);
+string miesiac = data.substr(pozycja1 + 1, pozycja2 - pozycja1 - 1);
+string dzien = data.substr(pozycja2 + 1);
+
+cout << "Rok: " << rok << endl;
+cout << "Miesiac: " << miesiac << endl;
+cout << "Dzien: " << dzien << endl;
+
+return 0;
 }
