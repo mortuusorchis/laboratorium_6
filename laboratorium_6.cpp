@@ -91,7 +91,7 @@ int main() {
 */
 
 // zadanie 8
-string data;
+/*string data;
 
 cout << "Podaj date w formacie RRRR-MM-DD: ";
 cin >> data;
@@ -108,4 +108,24 @@ cout << "Miesiac: " << miesiac << endl;
 cout << "Dzien: " << dzien << endl;
 
 return 0;
+}*/
+
+// zadanie 9 
+string tekst;
+string wyraz;
+
+cout << "Podaj dowolny tekst: ";
+getline(cin, tekst);
+
+cout << "Teraz podaj jakiego wyrazu szukasz: ";
+cin >> wyraz;
+
+int pozycja1 = tekst.find(wyraz);
+
+if (pozycja1 != -1) {
+	cout << "Podany wyraz po raz pierwszy wystepuje na miejscu: " << pozycja1;
+}
+else {
+	cout << "Wyraz nie wytepuje w tekscie. ";
+}
 }
