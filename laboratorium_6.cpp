@@ -111,7 +111,7 @@ return 0;
 }*/
 
 // zadanie 9 
-string tekst;
+/*string tekst;
 string wyraz;
 
 cout << "Podaj dowolny tekst: ";
@@ -128,4 +128,21 @@ if (pozycja1 != -1) {
 else {
 	cout << "Wyraz nie wytepuje w tekscie. ";
 }
-}
+}*/
+
+// zadanie 10
+/* string adres;
+
+cout << "Poda swoj aderes internetowy: ";
+getline(cin, adres);
+int pozycja1 = adres.find('@');
+
+string nazwa_uzytkownika = adres.substr(0, pozycja1);
+string domena = adres.substr(pozycja1 + 1);
+
+cout << "Nazwa uzytkownika: " << nazwa_uzytkownika << endl;
+cout << "Domena: " << domena << endl;
+
+}*/
+
+// zadanie 11
