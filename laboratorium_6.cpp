@@ -146,3 +146,30 @@ cout << "Domena: " << domena << endl;
 }*/
 
 // zadanie 11
+/*
+string imie;
+string nazwisko;
+
+cout << "Podaj swoje imie: ";
+getline(cin, imie);
+
+cout << "Podaj swoje nazwisko: ";
+getline(cin, nazwisko);
+
+string razem =  imie + " " + nazwisko;
+cout << "Pelne imie i nazwisko: " << razem << endl;
+cout << "Twoj tekst ma dlugosc: " << razem.length() - 1  << " znakow" << endl;
+	 } */
+
+// zadanie  12
+string liczba_tekst;
+
+cout << "Podaj dowolna liczba (cyfrowo): ";
+cin >> liczba_tekst;
+
+int liczba_liczba = stoi(liczba_tekst);
+
+cout << "Twoja liczba to: " << liczba_liczba << endl;
+cout << "Podwojenie twojej liczby to: " << 2 * liczba_liczba << endl;
+cout << "Twoja liczba powiekszona o 10 to: " << liczba_liczba + 10 << endl;
+}
